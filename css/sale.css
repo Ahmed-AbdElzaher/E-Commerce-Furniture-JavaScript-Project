@@ -1,0 +1,49 @@
+.product-container {
+  position: relative;
+}
+
+.saleImg {
+  position: absolute;
+  left: 0;
+  top: -20%;
+  height: 40%;
+  z-index: 50;
+}
+#priceBeforSale {
+  text-decoration: line-through;
+  color: red;
+  font-size: smaller;
+}
+.product-sale {
+  color: green;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.saleTimer {
+  position: absolute;
+  right: 3%;
+  top: 0%;
+  /* text-align: center; */
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 2px lightgreen, 0 0 1em gray, 0 0 0.2em gray;
+  color: black;
+  display: inline;
+  margin-left: 10px;
+  z-index: 55;
+}
+@media (max-width: 768px) {
+    .saleImg{
+        position: absolute;
+        left: 0;
+        top: -10%;
+        height: 30%;
+        z-index: 50;
+      
+    }
+}
+.HotDeal {
+  text-shadow: 1px 1px 2px lightgreen, 0 0 1em gray, 0 0 0.2em gray;
+  color: black;
+
+}

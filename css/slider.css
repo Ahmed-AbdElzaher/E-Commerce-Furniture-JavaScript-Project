@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  .carousel-inner {
+    height: 40vh;
+    position: relative;
+  }
+  .hero-container {
+    /* display: none; */
+    position: absolute;
+    top: 10%;
+    text-shadow: 1px 1px 2px black, 0 0 1em azure, 0 0 0.2em bisque;
+    color: azure;
+  }
+  .carousel-item {
+    width: auto;
+  }
+}
+
+.hero-container {
+  /* display: none; */
+  text-shadow: 1px 1px 2px black, 0 0 1em azure, 0 0 0.2em bisque;
+  color: azure;
+}
+
+.hero-container a{
+    text-shadow: 1px 1px 2px black, 0 0 1em azure, 0 0 0.2em bisque;
+    color: azure;
+  
+}
+.hero-container p {
+    text-shadow: 1px 1px 2px black, 0 0 1em azure, 0 0 0.2em bisque;
+    color: azure;
+  
+}
